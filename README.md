@@ -2,6 +2,8 @@
 
 A chat ui.
 
+![demo](demo.png)
+
 ## Installation
 
 ### npm
