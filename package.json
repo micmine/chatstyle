@@ -4,7 +4,8 @@
   "description": "A simple css chat",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "test": "http-server test/"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,10 @@
   "homepage": "https://github.com/micmine/chatstyle#readme",
   "dependencies": {
     "compile-sass": "^1.0.5",
-    "css-combine": "^1.0.0",
     "i": "^0.3.6",
     "npm": "^6.14.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1"
   }
 }
