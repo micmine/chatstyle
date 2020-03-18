@@ -1,5 +1,9 @@
 # chatstyle
 
+![license](https://img.shields.io/github/license/micmine/chatstyle)
+![npm version](https://img.shields.io/npm/v/chatstyle)
+![GitHub repo size](https://img.shields.io/github/repo-size/micmine/chatstyle)
+\
 A chat ui.
 
 ![demo](demo.png)
