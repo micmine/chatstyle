@@ -1,5 +1,4 @@
 const { compileSassAndSaveMultiple } = require('compile-sass');
-const combine = require('css-combine');
 const fs = require('fs');
 const path = require('path');
 
@@ -14,13 +13,5 @@ compileSassAndSaveMultiple({
     sassPath: path.join(__dirname, 'src/'),
     cssPath: path.join(__dirname, buildPath),
     sassFileExt: 'scss',
-    files: ['chat.scss', 'variables.scss']
+    files: ['chat.scss']
 });
-
-combine(buildPath + 'chat.css').pipe(
-    fs.createWriteStream(out)
-);
-
-combine(buildPath + 'variables.css').pipe(
-    fs.createWriteStream(out)
-);
